@@ -7,7 +7,7 @@ var i = 1
 client.connect(PORT, HOST, function () {
     console.log('CONNECTED TO: ' + HOST + ':' + PORT);
     if (i == 1) {
-        client.write('5735512036');
+        client.write('5735512028');
         i++
     }
 });
